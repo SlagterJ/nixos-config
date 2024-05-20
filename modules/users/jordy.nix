@@ -6,7 +6,7 @@
   users.users.jordy = {
     isNormalUser = true;
     description = "Jordy Slagter";
-    extraGroups = [ "networkmanager" "wireshark" "wheel" ];
+    extraGroups = [ "networkmanager" "docker" "wireshark" "wheel" ];
     shell = pkgs.fish;
     packages = with pkgs; [];
   };
