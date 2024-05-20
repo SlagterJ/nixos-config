@@ -12,7 +12,7 @@
     ./modules/environment/desktop.nix
     ./modules/packages/fonts.nix
     ./modules/packages/terminal.nix
-    ./modules/packages/productivity.nix
+    ./modules/packages/focus.nix
     ./modules/packages/development.nix
   ];
 
