@@ -57,6 +57,6 @@
     geary # email reader
   ]);
 
-  services.xserver.excludePackages = [ pkgs.xterm ];
+  services.xserver.excludePackages = with pkgs; [ xterm ];
   services.xserver.desktopManager.xterm.enable = false;
 }
