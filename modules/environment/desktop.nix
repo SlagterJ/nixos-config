@@ -1,3 +1,8 @@
+# References:
+# - https://nixos.wiki/wiki/GNOME
+# - https://discourse.nixos.org/t/nixos-gnome-remove-xterm-tour-and-manual/20027
+
+
 { config, pkgs, ... }:
 
 
@@ -51,4 +56,7 @@
     epiphany # web browser
     geary # email reader
   ]);
+
+  services.xserver.excludePackages = [ pkgs.xterm ];
+  services.xserver.desktopManager.xterm.enable = false;
 }
