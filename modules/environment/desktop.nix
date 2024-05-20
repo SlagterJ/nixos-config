@@ -44,4 +44,11 @@
     gnomeExtensions.bing-wallpaper-changer
     gnomeExtensions.blur-my-shell
   ];
+
+  environment.gnome.excludePackages = (with pkgs; [
+    gnome-tour
+  ]) ++ (with pkgs.gnome; [
+    epiphany # web browser
+    geary # email reader
+  ]);
 }
