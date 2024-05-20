@@ -7,5 +7,7 @@
     gh
     neovim
     vscode
+    tshark
+    wireshark
   ];
 }
