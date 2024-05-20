@@ -8,5 +8,6 @@
     fzf
     lf
     fastfetch
+    htop
   ];
 }
