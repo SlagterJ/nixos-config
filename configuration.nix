@@ -14,6 +14,8 @@
     ./modules/packages/terminal.nix
     ./modules/packages/focus.nix
     ./modules/packages/development.nix
+    ./modules/packages/office.nix
+    ./modules/packages/unfree.nix
   ];
 
   # Allow unfree packages
