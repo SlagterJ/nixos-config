@@ -9,5 +9,6 @@
     lf
     fastfetch
     htop
+    calc
   ];
 }
