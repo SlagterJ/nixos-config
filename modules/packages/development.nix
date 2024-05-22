@@ -8,6 +8,8 @@
     gh
     neovim
     vscode
+    hieroglyphic
+    gnome-graphs
 
     # infrastructure
     filezilla
