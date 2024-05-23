@@ -38,7 +38,9 @@
   programs.firefox.enable = true;
 
   # Sudo doesn't require password
-  security.sudo.wheelNeedsPassword = false;
+  security.sudo.enable = false;
+  security.doas.enable = true;
+  security.doas.wheelNeedsPassword = false;
 
   # Install fish shell
   programs.fish.enable = true;
