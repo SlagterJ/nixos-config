@@ -50,6 +50,7 @@
     gnomeExtensions.alphabetical-app-grid
     gnomeExtensions.bing-wallpaper-changer
     gnomeExtensions.blur-my-shell
+    gnomeExtensions.caffeine
   ];
 
   environment.gnome.excludePackages = (with pkgs; [
