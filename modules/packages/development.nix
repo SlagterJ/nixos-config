@@ -7,6 +7,7 @@
     git
     gh
     neovim
+    texlive
     vscode
     hieroglyphic
     gnome-graphs
