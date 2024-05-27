@@ -7,5 +7,6 @@
     hunspell
     hunspellDicts.en_US
     hunspellDicts.nl_NL
+    onlyoffice-bin_latest
   ];
 }
